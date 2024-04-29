@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --check -A --watch src/main.ts",
+    "add-job": "deno run --check -A src/queue.ts"
+  },
+  "lock": true,
+  "fmt": {
+    "semiColons": true
+  },
+  "imports": {
+    "~/": "./"
+  }
+}
